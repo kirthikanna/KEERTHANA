@@ -12,4 +12,4 @@ print('The string instances : ' + str(res))
 
 res1 = reduce(lambda acc, sublist: acc + [elem for elem in sublist if isinstance(elem, int)], test_list, [])
 
-print('The string instances : '+ str(res1))
+print('The integer instances : '+ str(res1))
